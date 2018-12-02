@@ -1,7 +1,7 @@
 /*********************************12/10/2018**************************
 FM radio SI4703 based
 piloted via BT and Smartphone AIM App
-for radio I use the code from sparkfun (2011) as there is no library and so that I can optimize the memory space by keeping just what needed
+for radio I got inspired by the code from sparkfun (2011) by Nathan Seidle as there is no library and so that I can optimize the memory space by keeping just what needed
 for RDS I used the GPIO2 => interupt low level for 5 ms when a RDS group text (4 bytes )is available 
 Display will be done via 4X20 LCD I2C screen
 commands used via blue tooth with android App:
